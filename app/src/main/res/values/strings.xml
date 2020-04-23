@@ -1,0 +1,21 @@
+<resources>
+    <string name="activity_home">Task Tracker - Home</string>
+    <string name="activity_calendar">Task Tracker - Calendar</string>
+    <string name="app_name">My Task Tracker</string>
+
+    <string name="bundleKey_month">calendarMonth</string>
+    <string name="bundleKey_day">calendarDay</string>
+    <string name="bundleKey_year">calendarYear</string>
+    <string name="button_add">Add Task</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_edit">Edit Task</string>
+    <string name="button_save">Save Task</string>
+    <string name="button_delete">Delete Task</string>
+
+    <string name="text_month">Month</string>
+    <string name="text_day">Day</string>
+    <string name="text_year">Year</string>
+    <string name="text_id">ID</string>
+    <string name="text_to_do">To Do:</string>
+
+</resources>

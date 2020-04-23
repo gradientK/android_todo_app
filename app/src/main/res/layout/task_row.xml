@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textMonth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:gravity="center_vertical|end"
+            android:maxLines="1"
+            android:text="@string/text_month"
+            android:textSize="6pt" />
+
+        <TextView
+            android:id="@+id/textDay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/text_day"
+            android:textSize="6pt" />
+
+        <TextView
+            android:id="@+id/textYear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="13"
+            android:gravity="center_vertical|start"
+            android:maxLines="1"
+            android:text="@string/text_year"
+            android:textSize="6pt" />
+
+        <TextView
+            android:id="@+id/textTaskDisplay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:text="@string/text_to_do"
+            android:textSize="6pt" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
